@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "618757375391",
+    "project_id": "animals-5bdf5",
+    "storage_bucket": "animals-5bdf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618757375391:android:7ebc82d2b5671f61a969aa",
+        "android_client_info": {
+          "package_name": "com.technoship.animals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618757375391-c0ve1n1i5uj485mmr1lh37hinjbtbo4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technoship.animals",
+            "certificate_hash": "4ce9bc206a91efaef0afaea52cdcd0655537b1d5"
+          }
+        },
+        {
+          "client_id": "618757375391-u0f833955se0ekfg4ks94bnvsah9b2c5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technoship.animals",
+            "certificate_hash": "25ce016f26559e315f8d66d7dfc285d1af0808bc"
+          }
+        },
+        {
+          "client_id": "618757375391-2j0rng9ef63m5rff6r3c499mlb4j4jra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzNhXzbP0DKozXJerZk07umQG1JzBFKv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618757375391-2j0rng9ef63m5rff6r3c499mlb4j4jra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4752389125269439~5876135297"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ofWhite"
+    android:layout_margin="25dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/bottomButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:layout_below="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3" />
+
+    <RelativeLayout
+        android:id="@+id/bottomButtons"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/systemLangButton"
+            android:textSize="13sp"
+            android:textColor="#008577"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:textSize="13sp"
+            android:textColor="#008577"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/okButton"
+            android:layout_toLeftOf="@id/okButton"
+            tools:ignore="RelativeOverlap" />
+
+        <Button
+            android:id="@+id/okButton"
+            android:textColor="#008577"
+            android:textSize="13sp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

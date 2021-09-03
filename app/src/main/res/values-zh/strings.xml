@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="image_content_description">contentDescription</string>
+    <string name="update">打开替代应用程序</string>
+    <string name="text1">欢迎回来. 😍</string>
+    <string name="text2">抱歉😥，此应用程序已停止更新。</string>
+    <string name="text3">但是，💡您可以使用这个替代应用程序来享受最好的服务。 ✨✨</string>
+    <string name="text4">点击下方👇下方的下载按钮，享受最好的服务🤙与替代应用程序。 💖</string>
+    <string name="changeLang">改变语言</string>
+
+
+    <!--    Localization-->
+    <string name="LocalizationLanguageController_gb">英语</string>
+    <string name="LocalizationLanguageController_ar">阿拉伯</string>
+    <string name="LocalizationLanguageController_zh">中国人</string>
+    <string name="LocalizationLanguageController_ru">俄语</string>
+
+    <string name="LocalizationLanguageController_system">系统</string>
+    <string name="LocalizationLanguageController_cancel">取消</string>
+    <string name="LocalizationLanguageController_apply">申请</string>
+    <string name="LocalizationLanguageController_select_language">选择语言</string>
+</resources>

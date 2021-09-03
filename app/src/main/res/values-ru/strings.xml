@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="image_content_description">contentDescription</string>
+    <string name="update">Открыть альтернативное приложение</string>
+    <string name="text1">Добро пожаловать назад. 😍</string>
+    <string name="text2">Извините 😥, обновления для этого приложения были прекращены.</string>
+    <string name="text3">Однако 💡 вы можете использовать это альтернативное приложение, чтобы получить лучший сервис. ✨ ✨</string>
+    <string name="text4">Нажмите кнопку загрузки ниже 👇, чтобы воспользоваться лучшим сервисом 🤙 с альтернативным приложением. 💖</string>
+    <string name="changeLang">Изменить язык</string>
+
+
+    <!--    Localization-->
+    <string name="LocalizationLanguageController_gb">английский</string>
+    <string name="LocalizationLanguageController_ar">арабский</string>
+    <string name="LocalizationLanguageController_zh">китайский язык</string>
+    <string name="LocalizationLanguageController_ru">русский язык</string>
+
+    <string name="LocalizationLanguageController_system">СИСТЕМА</string>
+    <string name="LocalizationLanguageController_cancel">Отмена</string>
+    <string name="LocalizationLanguageController_apply">заявка</string>
+    <string name="LocalizationLanguageController_select_language">Выбрать язык</string>
+</resources>

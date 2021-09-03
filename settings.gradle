@@ -1,0 +1,2 @@
+rootProject.name = "final_old_animal"
+include ':app'

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomButtons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="2dp"
+    android:background="?attr/selectableItemBackground"
+    android:layoutDirection="ltr"
+    tools:ignore="UnusedAttribute">
+
+    <ImageView
+        android:id="@+id/langImageView"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:scaleType="fitStart"
+        android:theme="@null"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@null"
+        android:contentDescription="@string/image_content_description" />
+
+    <RadioButton
+        android:id="@+id/langRadioButton"
+        android:layout_weight="1"
+        android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+        android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
+        android:background="@null"
+        android:button="@null"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Animals</string>
+    <string name="image_content_description">contentDescription</string>
+    <string name="update">التطبيق البديل</string>
+    <string name="text1">مرحبا بعودتك. 😍</string>
+    <string name="text2">عذرًا 😥 ، تم إيقاف تحديثات هذا التطبيق.</string>
+    <string name="text3">ومع ذلك ، يمكنك استخدام التطبيق البديل للاستمتاع بأفضل خدمة. ✨ ✨</string>
+    <string name="text4">انقر فوق زر التنزيل أدناه للاستمتاع بأفضل خدمة 🤙 مع التطبيق البديل. 💖</string>
+    <string name="changeLang">تغيير اللغة</string>
+
+
+    <!--    Localization-->
+    <string name="LocalizationLanguageController_gb">الإنجليزية</string>
+    <string name="LocalizationLanguageController_ar">العربية</string>
+    <string name="LocalizationLanguageController_zh">الصينية</string>
+    <string name="LocalizationLanguageController_ru">الروسية</string>
+
+    <string name="LocalizationLanguageController_system">النظام</string>
+    <string name="LocalizationLanguageController_cancel">إلغاء</string>
+    <string name="LocalizationLanguageController_apply">تنفيذ</string>
+    <string name="LocalizationLanguageController_select_language">إختر اللغة</string>
+</resources>
